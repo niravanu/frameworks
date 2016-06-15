@@ -1,7 +1,13 @@
 {
   "frameworks.json":null,
   "bootstrap": {
+    "bootstrap4.json": null,
     "bootstrap2.json": null,
     "bootstrap3.json": null
+  },
+  "foundation": {
+  },
+  "materialdesignlite":{
+    "materialdesignlite1.json":null
   }
 }
