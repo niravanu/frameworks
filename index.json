@@ -1,5 +1,6 @@
 {
   "frameworks.json":null,
+  "frameworkschema.json":null,
   "bootstrap": {
     "bootstrap4.json": null,
     "bootstrap2.json": null,
