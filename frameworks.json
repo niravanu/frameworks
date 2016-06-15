@@ -1,0 +1,28 @@
+
+    "default": "bootstrap3",
+    "frameworks": [{
+        "name": "Bootstrap",
+        "versions": [{
+            "url": "bootstrap/bootstrap4.json5",
+            "version": "4.0.0-alpha.2"
+        }, {
+            "url": "bootstrap/bootstrap3.json",
+            "version": "3.3.6"
+        }, {
+            "url": "bootstrap/bootstrap2.json",
+            "version": "2.3.2"
+        }]
+    }, {
+        "name": "Foundation",
+        "versions": [{
+            "url": "foundation/foundation.json",
+            "version": ""
+        }]
+    }, {
+        "name": "Material Design Lite",
+        "versions": [{
+            "url": "materialdesignlite/materialdesignlite1.json",
+            "version": "1.1.3"
+        }]
+    }]
+}
