@@ -1,0 +1,64 @@
+{
+  "id": "bootstrap2",
+  "name":"Bootstrap 2",
+  "version": "2.3.2",
+  "styles": [
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css"
+  ],
+  "scripts": [
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"
+  ],
+  "tags": [
+    {
+      "id":"header",
+      "name":"Header",
+      "template": "<h1 if=\"{opts.type=='h1'}\">{opts.text}</h1><h2 if=\"{opts.type=='h2'}\">{opts.text}</h2><h3 if=\"{opts.type == 'h3'}\">{opts.text}</h3><h4 if=\"{opts.type == 'h4'}\">{opts.text}</h4>",
+      "options": [
+        {
+          "id": "type",
+          "name": "Type",
+          "tag": "select",
+          "options": ["h1", "h2", "h3", "h4"],
+          "value": "h2"
+        },
+        {
+          "id":"text",
+          "name":"Text",
+          "tag": "input",
+          "value": "Header"
+        }
+      ]
+    },
+    {
+      "id":"button",
+      "name":"Button",
+      "template": "<button class='btn {opts.style} {opts.size}' disabled={opts.disabled} type='button'> {opts.label} </button>",
+      "options": [
+        { "id":"label",
+          "name":"Label",
+          "tag": "input",
+          "value": "Button"
+        },
+        { "id":"size",
+          "name":"Size",
+          "tag": "select",
+          "options": ["btn-large", "btn-default", "btn-small", "btn-mini"],
+          "value": "btn-default"
+        },
+        {
+          "id":"style",
+          "name":"Style",
+          "tag": "select",
+          "options": ["btn-default", "btn-warning", "btn-danger"],
+          "value": "btn-danger"
+        },
+        {
+          "id":"disabled",
+          "name":"Disabled",
+          "tag": "checkbox",
+          "value": false
+        }
+      ]
+    }
+  ]
+}
