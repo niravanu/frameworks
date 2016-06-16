@@ -3,7 +3,7 @@
   "framework.schema.json":null,
   "framework.uxf.json": null,
   "bootstrap": {
-    "bootstrap4.json": null,
+    "bootstrap4.uxf.json": null,
     "bootstrap2.uxf.json": null,
     "bootstrap3.json": null
   },
