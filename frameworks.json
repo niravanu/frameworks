@@ -2,7 +2,7 @@
     "default": "bootstrap3",
     "frameworks": [{
         "name": "Bootstrap",
-        "image": "http://getbootstrap.com/favicon.ico",
+        "image": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/082014/bootstrap_0.png",
         "versions": [{
             "url": "bootstrap/bootstrap4.json5",
             "version": "4.0.0-alpha.2"
@@ -15,13 +15,14 @@
         }]
     }, {
         "name": "Foundation",
+        "image":"http://info.wiscwebcms.wisc.edu/images/zurb-yeti.png",
         "versions": [{
             "url": "foundation/foundation.json",
             "version": ""
         }]
     }, {
         "name": "Material Design Lite",
-        "image": "https://raw.githubusercontent.com/niravanu/frameworks/master/materialdesignlite/index.png",
+        "image":""
         "versions": [{
             "url": "materialdesignlite/materialdesignlite1.json",
             "version": "1.1.3"
