@@ -30,7 +30,7 @@
         "name": "Framework7",
         "image": "http://framework7.io/i/logo-new.png",
         "versions": [{
-            "url": "framework71/framework71.uxf.json",
+            "url": "framework7/framework71.uxf.json",
             "version": "1.4.2"
         }]        
     }
