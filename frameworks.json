@@ -1,18 +1,18 @@
 {
-    "default": "bootstrap3",
+    "default": "bootstrap/bootstrap.336.uxf.json",
     "schema":"framework.schema.json",
     "template":"framework.uxf.json",
     "frameworks": [{
         "name": "Bootstrap",
         "image": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/082014/bootstrap_0.png",
         "versions": [{
-            "url": "bootstrap/bootstrap4.json5",
+            "url": "bootstrap/bootstrap.400.uxf.json",
             "version": "4.0.0-alpha.2"
         }, {
-            "url": "bootstrap/bootstrap3.json",
+            "url": "bootstrap/bootstrap.336.uxf.json",
             "version": "3.3.6"
         }, {
-            "url": "bootstrap/bootstrap2.json",
+            "url": "bootstrap/bootstrap.232.uxf.json",
             "version": "2.3.2"
         }]
     }, {
@@ -25,16 +25,24 @@
     }, {
         "name": "Material Design Lite",
         "versions": [{
-            "url": "materialdesignlite/materialdesignlite1.json",
+            "url": "materialdesignlite/materialdesignlite.113.uxf.json",
             "version": "1.1.3"
         }]
     }, {
         "name": "Framework7",
         "image": "http://framework7.io/i/logo-new.png",
         "versions": [{
-            "url": "framework7/framework71.uxf.json",
+            "url": "framework7/framework7.142.uxf.json",
             "version": "1.4.2"
         }]        
+    }, {
+        "name":"Ionic",
+        "site":"http://ionicframework.com/"
+        "versions":[{
+            "url":"ionic/ionic.131.uxf.json",
+            "version":"1.3.1"
+        }
+            ]        
     }
     ]
 }
