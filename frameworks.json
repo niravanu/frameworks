@@ -2,7 +2,7 @@
     "default": "bootstrap3",
     "frameworks": [{
         "name": "Bootstrap",
-        "image": "https://raw.githubusercontent.com/niravanu/frameworks/master/bootstrap/index.png",
+        "image": "http://getbootstrap.com/favicon.ico",
         "versions": [{
             "url": "bootstrap/bootstrap4.json5",
             "version": "4.0.0-alpha.2"
