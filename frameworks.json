@@ -22,7 +22,7 @@
         }]
     }, {
         "name": "Material Design Lite",
-        "image":""
+        "image":"",
         "versions": [{
             "url": "materialdesignlite/materialdesignlite1.json",
             "version": "1.1.3"
