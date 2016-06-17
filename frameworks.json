@@ -1,5 +1,7 @@
 {
     "default": "bootstrap3",
+    "schema":"framework.schema.json",
+    "template":"framework.uxf.json",
     "frameworks": [{
         "name": "Bootstrap",
         "image": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/082014/bootstrap_0.png",
