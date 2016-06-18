@@ -8,6 +8,11 @@
   "scripts": [
     "https://code.getmdl.io/1.1.3/material.min.js"
   ],
+  "themes": [
+    "https://code.getmdl.io/1.1.3/material.indigo-red.min.css",
+    "https://code.getmdl.io/1.1.3/material.deep_orange-teal.min.css",
+    "https://code.getmdl.io/1.1.3/material.light_green-deep_purple.min.css"
+  ]
   "tags": [
     {
       "id":"header",
