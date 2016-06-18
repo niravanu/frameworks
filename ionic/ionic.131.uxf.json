@@ -1,6 +1,6 @@
 {
-    "id": "ionic1",
-    "name": "Ionic 1.3.1",
+    "id": "ionic131",
+    "name": "Ionic",
     "version": "1.3.1",
     "styles": [
         "https://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.1/css/ionic.min.css"
@@ -27,7 +27,7 @@
     }, {
         "id": "button",
         "name": "Button",
-        "template": "<button class='btn {opts.style} {opts.size}' disabled={opts.disabled} type='button'> {opts.label} </button>",
+        "template": "<button class='button {opts.style} {opts.size}' disabled={opts.disabled} type='button'> {opts.label} </button>",
         "options": [{
             "id": "label",
             "name": "Label",
