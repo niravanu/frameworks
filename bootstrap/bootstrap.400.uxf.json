@@ -11,12 +11,7 @@
   "tags": [{
     "id": "header",
     "name": "Header",
-    "template": "<h1 if={options.type.value=='h1'}>{options.text.value}</h1> \
-      <h2 if={options.type.value=='h2'}>{options.text.value}</h2> \
-      <h3 if={options.type.value == 'h3'}>{options.text.value}</h3> \
-      <h4 if={options.type.value == 'h4'}>{options.text.value}</h4> \
-      <h5 if={options.type.value == 'h5'}>{options.text.value}</h5> \
-      <h6 if={options.type.value == 'h6'}>{options.text.value}</h6>",
+    "template": "<h1 if={options.type.value=='h1'}>{options.text.value}</h1><h2 if={options.type.value=='h2'}>{options.text.value}</h2> <h3 if={options.type.value == 'h3'}>{options.text.value}</h3><h4 if={options.type.value == 'h4'}>{options.text.value}</h4><h5 if={options.type.value == 'h5'}>{options.text.value}</h5><h6 if={options.type.value == 'h6'}>{options.text.value}</h6>",
     "options": [{
       "id": "type",
       "name": "Type",
@@ -59,14 +54,7 @@
   }, {
     "id": "card",
     "name": "Card",
-    "template":"<div class='card'> \
-        <img class='card-img-top' data-src='http://placehold.it/350x150' alt='Card image cap'> \
-        <div class='card-block'> \
-          <h4 class='card-title'>Card title</h4> \
-          <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the cards content.</p> \
-          <a href='#' class='btn btn-primary'>Button</a> \
-        </div> \
-      </div>",
+    "template":"<div class='card'> <img class='card-img-top' data-src='http://placehold.it/350x150' alt='Card image cap'><div class='card-block'><h4 class='card-title'>Card title</h4> <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the cards content.</p> <a href='#' class='btn btn-primary'>Button</a> </div> </div>",
     "options": [{
       "id": "title",
       "name": "Title",
