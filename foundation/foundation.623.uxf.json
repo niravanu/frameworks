@@ -1,6 +1,7 @@
 {
   "id": "foundation623",
   "name":"Foundation",
+  "site":"http://foundation.zurb.com/",  
   "version": "6.2.3",
   "styles": [
     "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css"

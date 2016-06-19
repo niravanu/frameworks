@@ -1,6 +1,7 @@
 {
   "id": "bootstrap232",
   "name":"Bootstrap 2",
+  "site":"http://getbootstrap.com/",  
   "version": "2.3.2",
   "styles": [
     "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css"

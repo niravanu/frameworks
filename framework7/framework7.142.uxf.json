@@ -1,6 +1,7 @@
 {
   "id": "framework7142",
   "name":"Framework7",
+  "site":"http://framework7.io/",
   "version": "1.4.2",
   "styles": [
     "https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/css/framework7.material.css"
