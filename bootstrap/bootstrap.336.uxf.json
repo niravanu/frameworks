@@ -11,8 +11,8 @@
     "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"
   ],
   "themes":[
-    "https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/cerulean/bootstrap.min.css",
-    "https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/lumen/bootstrap.min.css"
+    {"cerulean": "https://raw.githubusercontent.com/thomaspark/bootswatch/cerulean/bootstrap.min.css"},
+    {"Lumen": "https://raw.githubusercontent.com/thomaspark/bootswatch/lumen/bootstrap.min.css"}
   ],
   "tags": [
     {
