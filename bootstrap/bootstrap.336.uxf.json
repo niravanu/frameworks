@@ -12,10 +12,10 @@
     ],
     "themes": [{
         "name": "cerulean",
-        "url": "https://raw.githubusercontent.com/thomaspark/bootswatch/cerulean/bootstrap.min.css"
+        "url": "https://rawgit.com/thomaspark/bootswatch/cerulean/bootstrap.min.css"
     }, {
         "name": "Lumen",
-        "url": "https://raw.githubusercontent.com/thomaspark/bootswatch/lumen/bootstrap.min.css"
+        "url": "https://rawgit.com/thomaspark/bootswatch/lumen/bootstrap.min.css"
     }],
     "tags": [{
         "id": "header",
