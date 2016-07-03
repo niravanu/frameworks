@@ -12,7 +12,7 @@
   "tags": [{
     "id": "header",
     "name": "Header",
-    "template": "<h1 if={opts.type=='h1'}>{opts.text}</h1><h2 if={opts.type=='h2'}>{opts.text}</h2> <h3 if={opts.type == 'h3'}>{opts.text}</h3><h4 if={opts.type == 'h4'}>{opts.text}</h4><h5 if={opts.type == 'h5'}>{opts.text}</h5><h6 if={opts.type == 'h6'}>{opts.text}</h6>",
+    "template": "<h1 if={opts.type=='h1'}>{opts.text}</h1><h2 if={opts.type=='h2'}>{opts.text}</h2><h3 if={opts.type == 'h3'}>{opts.text}</h3><h4 if={opts.type == 'h4'}>{opts.text}</h4><h5 if={opts.type == 'h5'}>{opts.text}</h5><h6 if={opts.type == 'h6'}>{opts.text}</h6>",
     "options": [{
       "id": "type",
       "name": "Type",
