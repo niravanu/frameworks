@@ -28,7 +28,7 @@
     }, {
         "id": "button",
         "name": "Button",
-        "template": "<button class='button {opts.style} {opts.size}' disabled={opts.disabled} type='button'> {opts.label} </button>",
+        "template": "<button class='button {opts.style} {opts.size}' disabled=\"{opts.disabled}\" type='button'> {opts.label} </button>",
         "options": [{
             "id": "label",
             "name": "Label",
