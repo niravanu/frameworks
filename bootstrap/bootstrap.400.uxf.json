@@ -1,71 +1,75 @@
 {
-  "id": "bootstrap400",
-  "name": "Bootstrap 4",
-  "site":"http://getbootstrap.com/",
-  "version": "4.0.0-alpha.2",
-  "styles": [
-    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
-  ],
-  "scripts": [
-    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
-  ],
-  "tags": [{
-    "id": "header",
-    "name": "Header",
-    "template": "<h1 if=\"{opts.type=='h1'}\">{opts.text}</h1><h2 if=\"{opts.type=='h2'}\">{opts.text}</h2><h3 if=\"{opts.type == 'h3'}\">{opts.text}</h3><h4 if=\"{opts.type == 'h4'}\">{opts.text}</h4><h5 if=\"{opts.type == 'h5'}\">{opts.text}</h5><h6 if=\"{opts.type == 'h6'}\">{opts.text}</h6>",
-    "options": [{
-      "id": "type",
-      "name": "Type",
-      "tag": "select",
-      "options": ["h1", "h2", "h3", "h4", "h5", "h6"],
-      "value": "h2"
-    }, {
-      "id": "text",
-      "name": "Text",
-      "tag": "input",
-      "value": "Header"
+    "id": "bootstrap400",
+    "name": "Bootstrap 4",
+    "site": "http://getbootstrap.com/",
+    "version": "4.0.0-alpha.2",
+    "styles": [
+        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+    ],
+    "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+    ],
+    "themes": [{
+        "name": "mozilla",
+        "url": "https://mozilla.github.io/mofo-bootstrap/demo/css/demo.css"
     }]
-  }, {
-    "id": "button",
-    "name": "Button",
-    "template": "<button class='btn {opts.style} {opts.size}' disabled=\"{opts.disabled}\" type='button'> {opts.label} </button>",
-    "options": [{
-      "id": "label",
-      "name": "Label",
-      "tag": "input",
-      "value": "Button"
+    "tags": [{
+        "id": "header",
+        "name": "Header",
+        "template": "<h1 if=\"{opts.type=='h1'}\">{opts.text}</h1><h2 if=\"{opts.type=='h2'}\">{opts.text}</h2><h3 if=\"{opts.type == 'h3'}\">{opts.text}</h3><h4 if=\"{opts.type == 'h4'}\">{opts.text}</h4><h5 if=\"{opts.type == 'h5'}\">{opts.text}</h5><h6 if=\"{opts.type == 'h6'}\">{opts.text}</h6>",
+        "options": [{
+            "id": "type",
+            "name": "Type",
+            "tag": "select",
+            "options": ["h1", "h2", "h3", "h4", "h5", "h6"],
+            "value": "h2"
+        }, {
+            "id": "text",
+            "name": "Text",
+            "tag": "input",
+            "value": "Header"
+        }]
     }, {
-      "id": "size",
-      "name": "Size",
-      "tag": "select",
-      "options": ["btn-lg", "btn-def", "btn-sm"],
-      "value": "btn-def"
+        "id": "button",
+        "name": "Button",
+        "template": "<button class='btn {opts.style} {opts.size}' disabled=\"{opts.disabled}\" type='button'> {opts.label} </button>",
+        "options": [{
+            "id": "label",
+            "name": "Label",
+            "tag": "input",
+            "value": "Button"
+        }, {
+            "id": "size",
+            "name": "Size",
+            "tag": "select",
+            "options": ["btn-lg", "btn-def", "btn-sm"],
+            "value": "btn-def"
+        }, {
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["btn-default", "btn-warning", "btn-danger"],
+            "value": "btn-danger"
+        }, {
+            "id": "disabled",
+            "name": "Disabled",
+            "tag": "checkbox",
+            "value": false
+        }]
     }, {
-      "id": "style",
-      "name": "Style",
-      "tag": "select",
-      "options": ["btn-default", "btn-warning", "btn-danger"],
-      "value": "btn-danger"
-    }, {
-      "id": "disabled",
-      "name": "Disabled",
-      "tag": "checkbox",
-      "value": false
+        "id": "card",
+        "name": "Card",
+        "template": "<div class='card'> <img class='card-img-top' data-src='http://placehold.it/350x150' alt='Card image cap'><div class='card-block'><h4 class='card-title'>Card title</h4> <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the cards content.</p> <a href='#' class='btn btn-primary'>Button</a> </div> </div>",
+        "options": [{
+            "id": "title",
+            "name": "Title",
+            "tag": "input",
+            "value": "Title"
+        }, {
+            "id": "text",
+            "name": "Text",
+            "tag": "input",
+            "value": "Text"
+        }]
     }]
-  }, {
-    "id": "card",
-    "name": "Card",
-    "template":"<div class='card'> <img class='card-img-top' data-src='http://placehold.it/350x150' alt='Card image cap'><div class='card-block'><h4 class='card-title'>Card title</h4> <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the cards content.</p> <a href='#' class='btn btn-primary'>Button</a> </div> </div>",
-    "options": [{
-      "id": "title",
-      "name": "Title",
-      "tag": "input",
-      "value": "Title"
-    }, {
-      "id": "text",
-      "name": "Text",
-      "tag": "input",
-      "value": "Text"
-    }]
-  }]
 }
