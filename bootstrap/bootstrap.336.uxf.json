@@ -33,10 +33,21 @@
             "tag": "input",
             "value": "Header"
         }]
+        }, {
+            "id": "table",
+            "name": "Table",
+            "template": "<table class='table {opts.style} {opts.size} {opts.block}' disabled=\"{opts.disabled}\" type='button'> {opts.label} </table>",
+            "options": [{
+                "id": "style",
+                "name": "Style",
+                "tag": "select",
+                "options": ["", "table-striped", "table-bordered", "btn-info", "btn-warning", "btn-danger", "btn-link"],
+                "value": "btn-default"
+            }]
     }, {
         "id": "button",
         "name": "Button",
-        "template": "<button class='btn {opts.style} {opts.size}' disabled=\"{opts.disabled}\" type='button'> {opts.label} </button>",
+        "template": "<button class='btn {opts.style} {opts.size} {opts.block} {opts.disabled}' type='button'> {opts.label} </button>",
         "options": [{
             "id": "label",
             "name": "Label",
@@ -52,13 +63,36 @@
             "id": "style",
             "name": "Style",
             "tag": "select",
-            "options": ["btn-default", "btn-warning", "btn-danger"],
-            "value": "btn-danger"
+            "options": ["btn-default", "btn-primary", "btn-success", "btn-info", "btn-warning", "btn-danger", "btn-link"],
+            "value": "btn-default"
+        }, {
+            "id": "block",
+            "name": "Block",
+            "tag": "checkbox",
+            "options": ["", "btn-block"],
+            "value": ""
         }, {
             "id": "disabled",
             "name": "Disabled",
             "tag": "checkbox",
-            "value": false
+            "options": ["", "disabled"],
+            "value": ""
+        }]
+    }, {
+        "id": "label",
+        "name": "Label",
+        "template": "<span class='label {opts.style}'> {opts.label} </span>",
+        "options": [{
+            "id": "label",
+            "name": "Label",
+            "tag": "input",
+            "value": "Label"
+        }, {
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["label-default", "label-primary", "label-success", "label-info", "label-warning", "label-danger"],
+            "value": "label-default"
         }]
     }]
 }
