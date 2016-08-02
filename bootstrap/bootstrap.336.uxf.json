@@ -197,5 +197,37 @@
         "name": "Jumbotron",
         "template": "<div class='jumbotron'><h1>Hello, world!</h1><p>...</p><p><a class='btn btn-primary btn-lg' href='#' role='button'>Learn more</a></p></div>",
         "options": []
+    }, {
+        "id": "pageheader",
+        "name": "Page Header",
+        "template": "<div class='page-header'><h1>Example page header <small>Subtext for header</small></h1></div>",
+        "options": []
+    }, {
+        "id": "thumbnails",
+        "name": "Thumbnails",
+        "template": "<div class='row'><div class='col-xs-6 col-md-3'><div class='thumbnail'><img src='http://lorempixel.com/g/150/150' alt='image'><div class='caption'>Caption</div></div></div><div class='col-xs-6 col-md-3'><div class='thumbnail'><img src='http://lorempixel.com/g/150/150' alt='image'><div class='caption'>Caption</div></div></div></div>",
+        "options": []
+    }, {
+        "id": "alert",
+        "name": "Alert",
+        "template": "<div class='alert {opts.style} {opts.dismissable}' role='alert'><button if={opts.dismissable=='alert-dismissible'} type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>{opts.text}</div>",
+        "options": [{
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["", "alert-success", "alert-info", "alert-warning", "alert-danger"],
+            "value": ""
+        }, {
+            "id": "dismissable",
+            "name": "Dismissable",
+            "tag": "checkbox",
+            "options": ["", "alert-dismissible"],
+            "value": ""
+        }, {
+            "id": "text",
+            "name": "Text",
+            "tag": "input",
+            "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
+        }]
     }]
 }
