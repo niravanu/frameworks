@@ -140,6 +140,33 @@
             "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
         }]
     }, {
+        "id": "breadcrumbs",
+        "name": "Breadcrumbs",
+        "template": "<ol class='breadcrumb'><li><a href='#'>Home</a></li><li><a href='#'>Library</a></li><li class='active'>Data</li></ol>",
+        "options": []
+    }, {
+        "id": "pagination",
+        "name": "Pagination",
+        "template": "<nav aria-label='Page navigation'><ul class='pagination {opts.size}'><li><a href='#' aria-label='Previous'><span aria-hidden='true'>&laquo;</span></a></li><li><a href='#'>1</a></li><li><a href='#'>2</a></li><li><a href='#'>3</a></li><li><a href='#' aria-label='Next'><span aria-hidden='true'>&raquo;</span></a></li></ul></nav>",
+        "options": [{
+            "id": "size",
+            "name": "Size",
+            "tag": "select",
+            "options": ["", "pagination-sm", "pagination-lg"],
+            "value": ""
+        }]
+    }, {
+        "id": "pager",
+        "name": "Pager",
+        "template": "<nav aria-label='Pager'><ul class='pager'><li class={opts.align=='align'?'previous':''}><a href='#'>Previous</a></li><li class={opts.align=='align'?'next':''}><a href='#'>Next</a></li></ul></nav>",
+        "options": [{
+            "id": "align",
+            "name": "Align",
+            "tag": "checkbox",
+            "options": ["", "align"],
+            "value": ""
+        }]
+    }, {
         "id": "label",
         "name": "Label",
         "template": "<span class='label {opts.style}'> {opts.label} </span>",
@@ -165,11 +192,10 @@
             "tag": "input",
             "value": "10"
         }]
-        }, {
-            "id": "jumbotron",
-            "name": "Jumbotron",
-            "template": "<div class='jumbotron'><h1>Hello, world!</h1><p>...</p><p><a class='btn btn-primary btn-lg' href='#' role='button'>Learn more</a></p></div>",
-            "options": []
-        }
-  ]
+    }, {
+        "id": "jumbotron",
+        "name": "Jumbotron",
+        "template": "<div class='jumbotron'><h1>Hello, world!</h1><p>...</p><p><a class='btn btn-primary btn-lg' href='#' role='button'>Learn more</a></p></div>",
+        "options": []
+    }]
 }
