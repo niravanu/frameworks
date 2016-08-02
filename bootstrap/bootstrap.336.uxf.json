@@ -229,5 +229,38 @@
             "tag": "input",
             "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
         }]
+    }, {
+        "id": "listgroup",
+        "name": "List Group",
+        "template": "<ul class='list-group'><li class='list-group-item'>One</li><li class='list-group-item'>Two</li><li class='list-group-item'>Three</li></ul>",
+        "options": []
+    }, {
+        "id": "panel",
+        "name": "Panel",
+        "template": "<div class='panel {opts.style}'><div if={opts.heading=='true'} class='panel-heading'><h3 class='panel-title'>Title</h3></div><div class='panel-body'>{opts.text}</div><div if={opts.footer=='true'} class='panel-footer'>Panel footer</div></div>",
+        "options": [{
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["panel-default", "panel-primary", "panel-success", "panel-info", "panel-warning", "panel-danger"],
+            "value": "panel-default"
+        }, {
+            "id": "heading",
+            "name": "Heading",
+            "tag": "checkbox",
+            "options": ["", "true"],
+            "value": ""
+            }, {
+                "id": "footer",
+                "name": "Footer",
+                "tag": "checkbox",
+                "options": ["", "true"],
+                "value": ""
+            }, {
+            "id": "text",
+            "name": "Text",
+            "tag": "input",
+            "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
+        }]
     }]
 }
