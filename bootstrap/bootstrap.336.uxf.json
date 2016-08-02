@@ -33,17 +33,54 @@
             "tag": "input",
             "value": "Header"
         }]
-        }, {
-            "id": "table",
-            "name": "Table",
-            "template": "<table class='table {opts.style} {opts.size} {opts.block}' disabled=\"{opts.disabled}\" type='button'> {opts.label} </table>",
-            "options": [{
-                "id": "style",
-                "name": "Style",
-                "tag": "select",
-                "options": ["", "table-striped", "table-bordered", "btn-info", "btn-warning", "btn-danger", "btn-link"],
-                "value": "btn-default"
-            }]
+
+
+    }, {
+        "id": "table",
+        "name": "Table",
+        "template": "<table class='table {opts.striped} {opts.bordered} {opts.hover} {opts.condensed}'><thead><tr><th each={[opt.cols]}>H</th></tr></thead><tbody><tr each={[opt.rows]}><td each={[opt.cols]}>C</td></tr></tbody></table>",
+        "options": [
+        {
+            "id": "striped",
+            "name": "Striped",
+            "tag": "checkbox",
+            "options": ["", "table-striped"],
+            "value": ""
+        },
+        {
+            "id": "bordered",
+            "name": "Bordered",
+            "tag": "checkbox",
+            "options": ["", "table-bordered"],
+            "value": ""
+        },
+        {
+            "id": "hover",
+            "name": "Hover",
+            "tag": "checkbox",
+            "options": ["", "table-hover"],
+            "value": ""
+        },
+        {
+            "id": "condensed",
+            "name": "Condensed",
+            "tag": "checkbox",
+            "options": ["", "table-condensed"],
+            "value": ""
+        },
+        {
+            "id": "cols",
+            "name": "Cols",
+            "tag": "input",
+            "value": "3"
+        },
+        {
+            "id": "rows",
+            "name": "Rows",
+            "tag": "input",
+            "value": "3"
+        }
+      ]
     }, {
         "id": "button",
         "name": "Button",
