@@ -107,6 +107,39 @@
             "value": ""
         }]
     }, {
+        "id": "image",
+        "name": "Image",
+        "template": "<img draggable='false' src='http://lorempixel.com/g/150/150' alt='image' class = '{opts.style}'/>",
+        "options": [{
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["", "img-rounded", "img-circle", "img-thumbnail"],
+            "value": ""
+        }]
+    }, {
+        "id": "paragraph",
+        "name": "Paragraph",
+        "template": "<p class='{opts.style} {opts.background}'>{opts.text}</p>",
+        "options": [{
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["", "text-muted", "text-primary", "text-success", "text-info", "text-warning", "text-danger"],
+            "value": ""
+        }, {
+            "id": "background",
+            "name": "Background",
+            "tag": "select",
+            "options": ["", "bg-primary", "bg-success", "bg-info", "bg-warning", "bg-danger"],
+            "value": ""
+        }, {
+            "id": "text",
+            "name": "Text",
+            "tag": "input",
+            "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
+        }]
+    }, {
         "id": "label",
         "name": "Label",
         "template": "<span class='label {opts.style}'> {opts.label} </span>",
@@ -123,31 +156,20 @@
             "value": "label-default"
         }]
     }, {
-        "id": "image",
-        "name": "Image",
-        "template": "<img draggable='false' src='http://lorempixel.com/g/150/150' alt='image' class = '{opts.style}'/>",
+        "id": "badge",
+        "name": "Badge",
+        "template": "<span class='badge'> {opts.label} </span>",
         "options": [{
-            "id": "style",
-            "name": "Style",
-            "tag": "select",
-            "options": ["", "img-rounded", "img-circle", "img-thumbnail"],
-            "value": ""
-        }]
-    }, {
-        "id": "paragraph",
-        "name": "Paragraph",
-        "template": "<p class='{opts.style}'>{opts.text}</p>",
-        "options": [{
-            "id": "style",
-            "name": "Style",
-            "tag": "select",
-            "options": ["", "text-muted", "text-primary", "text-success", "text-info", "text-warning", "text-danger"],
-            "value": ""
-        }, {
-            "id": "text",
-            "name": "Text",
+            "id": "label",
+            "name": "Label",
             "tag": "input",
-            "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
+            "value": "10"
         }]
-    }]
+        }, {
+            "id": "jumbotron",
+            "name": "Jumbotron",
+            "template": "<div class='jumbotron'><h1>Hello, world!</h1><p>...</p><p><a class='btn btn-primary btn-lg' href='#' role='button'>Learn more</a></p></div>",
+            "options": []
+        }
+  ]
 }
