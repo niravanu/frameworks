@@ -33,54 +33,45 @@
             "tag": "input",
             "value": "Header"
         }]
-
-
     }, {
         "id": "table",
         "name": "Table",
-        "template": "<table class='table {opts.striped} {opts.bordered} {opts.hover} {opts.condensed}'><thead><tr><th each={[opt.cols]}>H</th></tr></thead><tbody><tr each={[opt.rows]}><td each={[opt.cols]}>C</td></tr></tbody></table>",
-        "options": [
-        {
+        "template": "<table class='table {opts.striped} {opts.bordered} {opts.hover} {opts.condensed}'><thead><tr><th each={[opts.cols]}>H</th></tr></thead><tbody><tr each={[opts.rows]}><td each={[opts.cols]}>C</td></tr></tbody></table>",
+        "options": [{
             "id": "striped",
             "name": "Striped",
             "tag": "checkbox",
             "options": ["", "table-striped"],
             "value": ""
-        },
-        {
+        }, {
             "id": "bordered",
             "name": "Bordered",
             "tag": "checkbox",
             "options": ["", "table-bordered"],
             "value": ""
-        },
-        {
+        }, {
             "id": "hover",
             "name": "Hover",
             "tag": "checkbox",
             "options": ["", "table-hover"],
             "value": ""
-        },
-        {
+        }, {
             "id": "condensed",
             "name": "Condensed",
             "tag": "checkbox",
             "options": ["", "table-condensed"],
             "value": ""
-        },
-        {
+        }, {
             "id": "cols",
             "name": "Cols",
             "tag": "input",
-            "value": "3"
-        },
-        {
+            "value": 3
+        }, {
             "id": "rows",
             "name": "Rows",
             "tag": "input",
-            "value": "3"
-        }
-      ]
+            "value": 3
+        }]
     }, {
         "id": "button",
         "name": "Button",
@@ -130,6 +121,33 @@
             "tag": "select",
             "options": ["label-default", "label-primary", "label-success", "label-info", "label-warning", "label-danger"],
             "value": "label-default"
+        }]
+    }, {
+        "id": "image",
+        "name": "Image",
+        "template": "<img draggable='false' src='http://lorempixel.com/g/150/150' alt='image' class = '{opts.style}'/>",
+        "options": [{
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["", "img-rounded", "img-circle", "img-thumbnail"],
+            "value": ""
+        }]
+    }, {
+        "id": "paragraph",
+        "name": "Paragraph",
+        "template": "<p class='{opts.style}'>{opts.text}</p>",
+        "options": [{
+            "id": "style",
+            "name": "Style",
+            "tag": "select",
+            "options": ["", "text-muted", "text-primary", "text-success", "text-info", "text-warning", "text-danger"],
+            "value": ""
+        }, {
+            "id": "text",
+            "name": "Text",
+            "tag": "input",
+            "value": "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
         }]
     }]
 }
