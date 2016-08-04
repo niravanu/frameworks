@@ -10,6 +10,9 @@
         "https://code.getmdl.io/1.1.3/material.min.js"
     ],
     "themes": [{
+        "name": "Indigo - Pink",
+        "url": "https://code.getmdl.io/1.1.3/material.indigo-pink.min.css"
+    }, {
         "name": "Indigo - Red",
         "url": "https://code.getmdl.io/1.1.3/material.indigo-red.min.css"
     }, {

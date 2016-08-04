@@ -11,6 +11,9 @@
         "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"
     ],
     "themes": [{
+        "name": "default",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"
+    }, {
         "name": "cerulean",
         "url": "https://rawgit.com/thomaspark/bootswatch/cerulean/bootstrap.min.css"
     }, {
