@@ -109,13 +109,33 @@
     }, {
         "id": "image",
         "name": "Image",
-        "template": "<img draggable='false' src='http://lorempixel.com/g/150/150' alt='image' class = '{opts.style}'/>",
+        "template": "<img draggable='false' src={opts.src} alt={opts.alt} height={opts.height} width={opts.width} class ='{opts.style}'/>",
         "options": [{
             "id": "style",
             "name": "Style",
             "tag": "select",
             "options": ["", "img-rounded", "img-circle", "img-thumbnail"],
             "value": ""
+        }, {
+            "id": "src",
+            "name": "Src",
+            "tag": "input",
+            "value": "http://lorempixel.com/g/150/150"
+        }, {
+            "id": "alt",
+            "name": "Alt",
+            "tag": "input",
+            "value": "image"
+        }, {
+            "id": "width",
+            "name": "Width",
+            "tag": "input",
+            "value": "150"
+        }, {
+            "id": "height",
+            "name": "Height",
+            "tag": "input",
+            "value": "150"
         }]
     }, {
         "id": "paragraph",
@@ -250,13 +270,13 @@
             "tag": "checkbox",
             "options": ["", "true"],
             "value": ""
-            }, {
-                "id": "footer",
-                "name": "Footer",
-                "tag": "checkbox",
-                "options": ["", "true"],
-                "value": ""
-            }, {
+        }, {
+            "id": "footer",
+            "name": "Footer",
+            "tag": "checkbox",
+            "options": ["", "true"],
+            "value": ""
+        }, {
             "id": "text",
             "name": "Text",
             "tag": "input",
