@@ -1,5 +1,5 @@
 {
-    "default": {"url": "bootstrap.336.uxf.json"},
+    "default": {"id":"bootstrap.336", "url": "bootstrap.336.uxf.json"},
     "schema":"framework.schema.json",
     "template":"framework.uxf.json",
     "frameworks": [
