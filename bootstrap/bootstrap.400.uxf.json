@@ -2,12 +2,12 @@
     "id": "bootstrap.400",
     "name": "Bootstrap 4",
     "site": "http://getbootstrap.com/",
-    "version": "4.0.0-alpha.2",
+    "version": "4.0.0-alpha.3",
     "styles": [
-        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/css/bootstrap.min.css"
     ],
     "scripts": [
-        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"
     ],
     "themes": [{
         "name": "mozilla",

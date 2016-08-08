@@ -1,7 +1,7 @@
 {
     "default": {
-        "id": "bootstrap.336",
-        "url": "bootstrap.336.uxf.json"
+        "id": "bootstrap.337",
+        "url": "bootstrap.337.uxf.json"
     },
     "schema": "framework.schema.json",
     "template": "framework.uxf.json",
@@ -13,11 +13,11 @@
         "versions": [{
             "id": "bootstrap.400",
             "url": "bootstrap.400.uxf.json",
-            "version": "4.0.0-alpha.2"
+            "version": "4.0.0-alpha.3"
         }, {
-            "id": "bootstrap.336",
-            "url": "bootstrap.336.uxf.json",
-            "version": "3.3.6"
+            "id": "bootstrap.337",
+            "url": "bootstrap.337.uxf.json",
+            "version": "3.3.7"
         }, {
             "id": "bootstrap.232",
             "url": "bootstrap.232.uxf.json",
