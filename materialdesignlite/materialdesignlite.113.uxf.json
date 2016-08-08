@@ -11,7 +11,7 @@
     ],
     "themes": [{
         "name": "default",
-        "url": "https://code.getmdl.io/1.1.3/material.min.css",
+        "url": "https://code.getmdl.io/1.1.3/material.min.css"
     }, {
         "name": "Indigo - Pink",
         "url": "https://code.getmdl.io/1.1.3/material.indigo-pink.min.css"
