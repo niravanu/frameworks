@@ -12,7 +12,7 @@
     "themes": [{
         "name": "mozilla",
         "url": "https://mozilla.github.io/mofo-bootstrap/demo/css/demo.css"
-    }]
+    }],
     "tags": [{
         "id": "header",
         "name": "Header",
