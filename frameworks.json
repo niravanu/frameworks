@@ -18,10 +18,6 @@
             "id": "bootstrap.3",
             "url": "bootstrap.3.uxf.json",
             "version": "3.3.7"
-        }, {
-            "id": "bootstrap.2",
-            "url": "bootstrap.2.uxf.json",
-            "version": "2.3.2"
         }]
     }, {
         "name": "Foundation",
