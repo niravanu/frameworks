@@ -2,28 +2,28 @@
     "id": "materialdesignlite.1",
     "name": "Material Design Lite",
     "site": "https://getmdl.io/",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "styles": [
-        "https://code.getmdl.io/1.2.0/material.min.css"
+        "https://code.getmdl.io/1.2.1/material.min.css"
     ],
     "scripts": [
-        "https://code.getmdl.io/1.2.0/material.min.js"
+        "https://code.getmdl.io/1.2.1/material.min.js"
     ],
     "themes": [{
         "name": "default",
-        "url": "https://code.getmdl.io/1.2.0/material.min.css"
+        "url": "https://code.getmdl.io/1.2.1/material.min.css"
     }, {
         "name": "Indigo - Pink",
-        "url": "https://code.getmdl.io/1.2.0/material.indigo-pink.min.css"
+        "url": "https://code.getmdl.io/1.2.1/material.indigo-pink.min.css"
     }, {
         "name": "Indigo - Red",
-        "url": "https://code.getmdl.io/1.2.0/material.indigo-red.min.css"
+        "url": "https://code.getmdl.io/1.2.1/material.indigo-red.min.css"
     }, {
         "name": "Orange - Teal",
-        "url": "https://code.getmdl.io/1.2.0/material.deep_orange-teal.min.css"
+        "url": "https://code.getmdl.io/1.2.1/material.deep_orange-teal.min.css"
     }, {
         "name": "Green - Deep Purple",
-        "url": "https://code.getmdl.io/1.2.0/material.light_green-deep_purple.min.css"
+        "url": "https://code.getmdl.io/1.2.1/material.light_green-deep_purple.min.css"
     }],
     "tags": [{
         "id": "header",

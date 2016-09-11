@@ -13,7 +13,7 @@
         "versions": [{
             "id": "bootstrap.4",
             "url": "bootstrap.4.uxf.json",
-            "version": "4.0.0-alpha.3"
+            "version": "4.0.0-alpha.4"
         }, {
             "id": "bootstrap.3",
             "url": "bootstrap.3.uxf.json",
@@ -37,7 +37,7 @@
         "versions": [{
             "id": "materialdesignlite.1",
             "url": "materialdesignlite.1.uxf.json",
-            "version": "1.2.0"
+            "version": "1.2.1"
         }]
     }, {
         "name": "Framework7",
