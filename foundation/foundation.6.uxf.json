@@ -1,13 +1,38 @@
 {
-  "id": "foundation.6",
-  "name":"Foundation 6",
-  "site":"http://foundation.zurb.com/",
-  "version": "6.2.3",
-  "styles": [
-    "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css"
-  ],
-  "scripts": [
-    "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"
-  ],
-  "tags": []
+    "id": "foundation.6",
+    "name": "Foundation 6",
+    "site": "http://foundation.zurb.com/",
+    "version": "6.2.3",
+    "styles": [
+        "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css"
+    ],
+    "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"
+    ],
+    "snippets": [{
+        "name": "News or Magazine",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/news-magazine.html"
+    }, {
+        "name": "Real Estate or Travel",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/real-estate.html"
+    }, {
+        "name": "Ecommerce Homepage",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/ecommerce.html"
+    }, {
+        "name": "Agency",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/agency.html"
+    }, {
+        "name": "Blog w/ Sidebar",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/blog.html"
+    }, {
+        "name": "Blog Single Column",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html"
+    }, {
+        "name": "Portfolio",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/portfolio.html"
+    }, {
+        "name": "Product Page",
+        "url": "http://foundation.zurb.com/templates-previews-sites-f6/product-page.html"
+    }],
+    "tags": []
 }
