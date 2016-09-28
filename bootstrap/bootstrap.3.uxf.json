@@ -63,22 +63,22 @@
         "url": "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css"
     }],
     "snippets": [{
-        "name": "theme",
+        "name": "Theme",
         "url": "http://getbootstrap.com/examples/theme"
     }, {
-        "name": "grids",
+        "name": "Grids",
         "url": "http://getbootstrap.com/examples/grid/"
     }, {
-        "name": "jumbotron",
+        "name": "Jumbotron",
         "url": "http://getbootstrap.com/examples/jumbotron/"
     }, {
-        "name": "carousel",
+        "name": "Carousel",
         "url": "http://getbootstrap.com/examples/carousel/"
     }, {
-        "name": "dashboard",
+        "name": "Dashboard",
         "url": "http://getbootstrap.com/examples/dashboard/"
     }, {
-        "name": "offcanvas",
+        "name": "Off-canvas",
         "url": "http://getbootstrap.com/examples/offcanvas/"
     }],
     "tags": [{
